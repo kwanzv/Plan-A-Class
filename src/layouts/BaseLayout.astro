@@ -11,23 +11,6 @@ const { meta = {} } = Astro.props;
 <html lang="en" class="motion-safe:scroll-smooth 2xl:text-[20px]">
 	<head>
 		<MetaTags {...meta} />
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css"
-		/>
-		<script
-			type="text/javascript"
-			src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"
-		></script>
-		<script type="text/javascript">
-			algoliasearchNetlify({
-				appId: 'PHUM3AL0WT',
-				apiKey: '078cfac1bdde17720b935a186483198d',
-				siteId: '32b6a330-787a-4d13-8b8b-94fa63e4aa74',
-				branch: 'main',
-				selector: 'div#search',
-			});
-		</script>
 	</head>
 
 	<body class="antialiased text-gray-900 dark:text-slate-300 tracking-tight bg-white dark:bg-slate-900">
