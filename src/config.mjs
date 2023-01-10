@@ -1,11 +1,11 @@
 export const SITE = {
-	name: 'AstroWind',
+	name: 'APlan a Class',
 
 	origin: 'https://astrowind.vercel.app',
 	basePathname: '/',
 	trailingSlash: false,
 
-	title: 'Plan a class',
+	title: 'Plan a Class',
 	description: 'Tailored comprehensive lesson plans',
 
 	googleAnalyticsId: false, // or "G-XXXXXXXXXX",
