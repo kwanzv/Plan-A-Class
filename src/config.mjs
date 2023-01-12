@@ -1,5 +1,5 @@
 export const SITE = {
-	name: 'APlan a Class',
+	name: 'Plan a Class',
 
 	origin: 'https://astrowind.vercel.app',
 	basePathname: '/',

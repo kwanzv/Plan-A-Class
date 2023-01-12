@@ -3,7 +3,7 @@ import Logo from '~/components/atoms/Logo.astro';
 import ToggleTheme from '~/components/core/ToggleTheme.astro';
 import ToggleMenu from '~/components/core/ToggleMenu.astro';
 
-import { getHomePermalink, getBlogPermalink,} from '~/utils/permalinks';
+import { getHomePermalink, getBlogPermalink } from '~/utils/permalinks';
 ---
 
 <header
@@ -28,7 +28,7 @@ import { getHomePermalink, getBlogPermalink,} from '~/utils/permalinks';
 				<li class="dropdown">
 					<button
 						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-						>Pages</button
+						>Library</button
 					>
 					<ul
 						class="dropdown-menu rounded md:absolute pl-4 md:pl-0 md:hidden font-medium md:bg-white md:min-w-[200px] dark:md:bg-slate-800 drop-shadow-xl"
@@ -36,29 +36,35 @@ import { getHomePermalink, getBlogPermalink,} from '~/utils/permalinks';
 						<li class="">
 							<a
 								class="rounded-t md:hover:bg-gray-100 dark:hover:bg-gray-700 py-2 px-4 block whitespace-no-wrap"
-								href="#">Features</a
+								href="library">IELTS - Mindset</a
 							>
 						</li>
 						<li class="">
 							<a class="md:hover:bg-gray-100 dark:hover:bg-gray-700 py-2 px-4 block whitespace-no-wrap" href="#"
-								>Profile</a
+								>Adults</a
 							>
 						</li>
 						<li class="">
 							<a
 								class="rounded-b md:hover:bg-gray-100 dark:hover:bg-gray-700 py-2 px-4 block whitespace-no-wrap"
-								href="#">Pricing</a
+								href="#">Teenagers</a
 							>
 						</li>
 					</ul>
 				</li>
-
+				<li>
+					<a
+						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+						href="#">Pricing</a
+					>
+				</li>
 				<li>
 					<a
 						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
 						href={getBlogPermalink()}>Blog</a
 					>
 				</li>
+
 				<li class="md:hidden">
 					<a
 						class="font-bold hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
