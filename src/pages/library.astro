@@ -10,4 +10,45 @@ const meta = {
 };
 ---
 
-<Layout {meta} />
+<Layout {meta}>
+	<div class="p-8 overflow-auto relative">
+		<table class="table-fixed mx-auto border w-1/2 dark:bg-slate-600">
+			<thead>
+				<tr>
+					<th class="font-bold p-2 border-b text-left">Unit</th>
+					<th class="font-bold p-2- border-b text-left">Type of lesson</th>
+
+					<th class="font-bold p-2 border-b text-left">Page</th>
+					<th class="font-bold p-2 border-b text-right">Download link</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="p-2 border-b text-left">Mindset 2</td>
+					<td class="p-2 border-b text-left">U6 Speaking</td>
+					<td class="p-2 border-b text-left">121</td>
+					<td class="p-2 px-4 border-b text-right">
+						<button
+							type="button"
+							class="inline-block mx-auto px-6 py-2.5 bg-blue-600 text-white font-medium text-xs rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+							><a href="https://transactions.sendowl.com/products/78843416/D08E4557/purchase" rel="nofollow">Download</a
+							>
+						</button>
+					</td>
+				</tr>
+				<tr>
+					<td class="p-2 border-b text-left">Mindset 3</td>
+					<td class="p-2 border-b text-left">U6 Speaking</td>
+					<td class="p-2 border-b text-left"></td>
+					<td class="p-2 px-4 border-b text-left"></td>
+				</tr>
+				<tr>
+					<td class="p-2 border-b text-left">Mindset 3</td>
+					<td class="p-2 border-b text-left">U6 Speaking</td>
+					<td class="p-2 border-b text-left"></td>
+					<td class="p-2 px-4 border-b text-left"></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</Layout>
